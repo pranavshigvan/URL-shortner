@@ -16,11 +16,11 @@ backDrop.onclick = (e)=>{
 }
 
 window.onresize = (e)=>{
-    if(window.innerWidth > 550) {
+    if(window.innerWidth > 650) {
         nav.style.display = "flex";
         backDrop.style.display = "none"
     }
-    if(window.innerWidth <= 550) {
+    if(window.innerWidth <= 650) {
         nav.style.display = "none";
         backDrop.style.display = "none"
     }
