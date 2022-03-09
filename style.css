@@ -261,7 +261,7 @@ footer > div {
 .coppied {
     background-color: hsl(257, 27%, 26%);
 }
-@media (max-width:450px) {
+@media (max-width:650px) {
     main {
         padding-inline: 5vw;
     }
