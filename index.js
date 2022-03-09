@@ -34,6 +34,7 @@ form.onsubmit = (e)=>{
     fetch(`https://api.shrtco.de/v2/shorten?url=${input.value}`)
     .then((res => res.json()))
     .then( data => {
+        shortenLinks.innerHTML = ""
         const urlGenerator = (shortLink)=>{
             const shortUrl = document.createElement("div")
             const copyBtn = document.createElement("button")
