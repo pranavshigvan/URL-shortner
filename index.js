@@ -36,6 +36,7 @@ form.onsubmit = (e)=>{
     .then( data => {
         shortenLinks.innerHTML = ""
         const urlGenerator = (shortLink)=>{
+            console.log("a")
             const shortUrl = document.createElement("div")
             const copyBtn = document.createElement("button")
             copyBtn.innerText = "Copy"

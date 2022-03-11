@@ -14,6 +14,7 @@ body {
 main {
     width: 100%;
     padding: 5vw 10vw;
+    height: 100vh;
 }
 header {
     width: 100vw;
@@ -88,6 +89,7 @@ h1 {
 .intro {
     display: flex;
     padding-bottom: 5vw;
+    margin-top: 50px;
 }
 .intro > div {
     width: 50%;
@@ -279,6 +281,7 @@ footer > div {
 @media (max-width:650px) {
     main {
         padding-inline: 5vw;
+        overflow-x: hidden;
     }
     nav {
         display: none;
@@ -353,6 +356,7 @@ footer > div {
     }
     .hero_img {
         align-items: flex-start;
+        padding-block: 10vh;
     }
     .hero_img img {
         width: 120%;
